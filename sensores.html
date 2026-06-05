@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>MAIC - Exploring the heart of your computer</title>
+      <!-- Css -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link rel="shortcut icon" href="img/plaquita.png" type="image/x-icon">
+   </head>
+   <body>
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
+         <div class="col-md-12">
+            <div class="nav">
+               <button class="btn-nav">
+               <span class="icon-bar top"></span>
+               <span class="icon-bar middle"></span>
+               <span class="icon-bar bottom"></span>
+               </button>
+            </div>
+            <a class="navbar-brand" href="index.html">
+            <img class="logo" src="img/logoo.jpeg" alt="logo">
+            </a>
+            <div class="nav-content hideNav hidden">
+               <ul class="nav-list vcenter">
+                  <li class="nav-item"><a class="item-anchor" href="index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="about.html">Zócalo de CPU</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="portfolio.html">Memoria RAM</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="contact.html">Chipset</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="conectores.html">Conectores de energía</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="sensores.html">Sensores y refrigeración</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="ranuras.html">Ranuras de expansión</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="puertos.html">Puertos SATA y M.2</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="puertosex.html">Puertos Externos</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="bios.html">BIOS/UEFI</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <h1>
+                     <strong>Temperaturas de la placa base</strong><br>
+                  </h1>
+                  <div class="row margin-top-45">
+            </div>
+                 <p>Normalmente, se le pone atención a la temperatura del procesador o de la tarjeta gráfica, olvidándonos del resto de componentes del PC. También hay que mirar la temperatura de la placa base porque es vital cuando hacemos overclock, por ejemplo.</p>
+                 <p>
+                    <h2><strong>VRM</strong></h2>
+                    <div class="col-md-12">
+                  <img class="img-responsive margin-top-45" src="img/AS.jpg"  alt="me" width="600px" height="600px">
+                    </div>
+                 </p>
+                 <p>
+                    Los VRM vienen a ser los reguladores de voltaje, y suben de temperatura cuando ponemos nuestro PC a funcionar. De hecho, muchos entusiastas atienden al comportamiento de éstos cuando quieren comprar una placa base para overclockear su procesador.
+                 </p>
+                 <p>
+                    ¿Por qué prestan tanta atención a los VRM? Porque todas las placas base tienen un máximo de temperatura soportado, normalmente de unos 120 grados. Cuando la placa llega a esa temperatura se apaga automáticamente para evitar que se dañe ésta.
+                 </p>
+                 <p>
+                    <h3><strong>¿Cuándo pasará esto?</strong></h3>
+                    <br>
+                    En la mayoría de los casos, se da cuando los usuarios hacen overclock en el procesador, lo que implica subir el voltaje. Si os fijáis, conforme subimos el voltaje, la temperatura de la placa y del procesador suben progresivamente.
+                 </p>
+                 <p>
+                    A mayor voltaje, mayor temperatura. Aquí es donde entra la importancia de los VRM de una placa base. Aunque no os lo creáis, existen placas entusiastas o de gama alta que no tienen unos VRM muy buenos, lo que perjudica la capacidad de overclock del equipo.
+                 </p>
+                 <p>
+                    En las motherboards no ocurre lo mismo que en los procesadores. Cuando un procesador funciona a temperaturas elevadas como, por ejemplo, 70 grados, se suele producir el efecto thermal throttling. El procesador baja el rendimiento para bajar de temperatura. En las placas base eso no existe, así que los usuarios sólo se fijan en el procesador = ERROR.
+                 </p>
+                 <p>
+                    <strong>  CUIDADO CON LA REFRIGERACIÓN LÍQUIDA: </strong> al no haber casi corriente de aire porque tenemos refrigeración líquida, los VRM se calientan aún más. Esto se puede corregir con un buen ventilador de 120 mm, por ejemplo.
+                 </p>
+                 <p>
+                    ¿Cómo saber las temperaturas de mis VRM? Para saberlo nuestra placa base debe incorporar un sensor para medirla. Como era de esperar, muchas placas base no incorporan este sensor, así que podemos medir su temperatura con un termómetro infrarrojo como este o vía software con Hwinfo.
+                 </p>
+                 <p>
+                    <h2><strong>Chipset</strong></h2>
+                    <br>
+                    <img src="img/chipset.jpeg" alt="chipset" width="600px" height="400px">
+                    <br>
+                    Cuidado con el chipset porque no podemos perder de vista sus temperaturas. Normalmente, las temperaturas máximas que puede aguantar el chipset gira en torno de los 70 grados centígrados. Si se sobrepasa, el ordenador pierde estabilidad, lo que puede dar lugar a reinicios, apagados repentinos, etc.
+                 </p>
+                 <p>
+                    Hemos visto que en las placas base de alta gama de AMD incorporaban un ventilador en la placaba pase para refrigerarla un poco porque se calentaban demasiado. Es importante observar la temperatura del chipset.
+                 </p>
+
+               </div>
+            </div>
+         </div>
+         </div>
+      </section>
+      <!-- script -->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/modernizr.js"></script>
+      <script src="js/script.js"></script>
+   </body>
+</html>
